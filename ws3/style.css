@@ -1,38 +1,24 @@
-<!DOCTYPE HTML>
-<html>
+/* this my css*/
 
+/*
 
+.blue{ color:blue;}
+*/
 
-<head>
+/* box model*/
 
-<title> applying css</title>
+.box1{ 
+    width: 200px;
+    height:200px;
+    background-color: #ff0000;
+    float:left;
+    
 
-
-<style>
-.red{
-color :red;
 }
-</style>
-<link rel="stylesheet"href="style.css">
-    
-</head>
-    <body>
-    
-    
-    <!--inline css styling-->
-    
-<p style="color:red;"> redtext</p>
-    
-     <!--inline css styling-->
+.box2{ 
+    width:200px;
+    height:200px;
+    background-color: blue;
+    float:left;
+}
 
-<p class="red"> red text</p>
-        <p class="blue">blue text external css</p>
-    
-    
-    </body>
-
-
-
-
-<body>
-</html>
